@@ -1,0 +1,72 @@
+/* borders for the table and more gap between columns */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+th{
+    color: rgb(49, 49, 49);
+    background-color: #f2f2f2;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add_button:hover{
+    background-color: #45a049;
+}
+
+.delete_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete_button:hover{
+    background-color: #da190b;
+}
+
+.edit_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit_button:hover{
+    background-color: #007a9b;
+}
